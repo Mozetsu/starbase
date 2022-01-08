@@ -1,0 +1,13 @@
+.arrow {
+	margin-left: 1.7rem;
+	width: 15px;
+	height: auto;
+}
+
+.arrow__light {
+	fill: var(--white);
+}
+
+.arrow__dark {
+	fill: var(--text);
+}

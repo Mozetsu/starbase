@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import './arrow.css';
+@import './button.css';
 @import './navbar.css';
 
 :root {
 	/* variables  */
 	--accent01: #c4a9ff;
-	--accent01: #efb7b7;
+	--accent02: #efb7b7;
 	--white: #fff;
+	--light01: #ffe8e8;
 	--dark01: #e4e4e4; /* navbar button */
 	--dark02: #aaa; /* footer links */
 	--dark03: #9f9f9f; /* profile cards description */
@@ -13,9 +16,8 @@
 	--dark05: #666; /* anchor tags */
 	--dark06: #444; /* profile cards description */
 	--dark07: #222; /* primary */
-	--gradient01: linear-gradient(97.69deg, #ffeaea 0%, #e3e0fd 100%); /* requirements buttons */
-	--gradient02: linear-gradient(180deg, #f7f7f7 0%, #ffffff 100%); /* crew section background */
-	--gradient03: linear-gradient(160.64deg, #b5bcff 16.7%, #e09dff 109.55%); /* callout */
+	--gradient01: linear-gradient(97.69deg, #ffeaea 0%, #e3e0fd 100%); /* crew section background */
+	--gradient02: linear-gradient(160.64deg, #b5bcff 16.7%, #e09dff 109.55%); /* callout */
 	--shadow01: 0px 4px 20px rgba(0, 0, 0, 0.05); /* Profile cards */
 	--shadow02: 0px 2px 20px rgba(0, 0, 0, 0.15); /* Callout */
 
@@ -29,6 +31,8 @@ body {
 }
 
 html {
+	/* TODO: remove padding */
+	padding: 15px;
 	font-size: 62.5%;
 }
 
