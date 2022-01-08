@@ -7,9 +7,10 @@
 		<title>Starbase</title>
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<script defer src="js/main.js"></script>
 	</head>
 	<body>
-		<nav class="navbar">
+		<nav class="navbar container">
 			<span class="navbar__logo">
 				<svg width="98" height="15" viewBox="0 0 98 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -23,8 +24,15 @@
 				<li class="navbar__item"><a href="#">Roadmap</a></li>
 				<li class="navbar__item"><a href="#">Crew</a></li>
 				<li class="navbar__item"><a href="#">Connect</a></li>
-				<li class="navbar__item"><a href="#">Join</a></li>
+				<li class="navbar__item btn btn__join-mobile"><a href="#">Join</a></li>
 			</ul>
+			<a class="navbar__btn btn btn__join-desktop" href="#">Join</a>
+			<a class="navbar__btn btn btn__burguer" href="#">
+				<svg width="30" height="21" viewBox="0 0 38 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="11" width="27" height="5" fill="#222222" />
+					<rect y="16" width="38" height="5" fill="#222222" />
+				</svg>
+			</a>
 		</nav>
 	</body>
 </html>
