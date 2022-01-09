@@ -2,11 +2,18 @@
 	position: relative;
 	width: 100%;
 	max-width: 480px;
-	box-shadow: -12px 12px 0 0 var(--accent01);
 }
 
-.frame__picture img {
+.frame__picture .frame__image {
 	width: 100%;
+}
+
+.frame__picture .image01 {
+	box-shadow: -10px 10px 0 0 var(--accent01);
+}
+
+.frame__picture .image02 {
+	box-shadow: 10px 10px 0 0 var(--accent02);
 }
 
 .frame__quote {
@@ -15,7 +22,7 @@
 	bottom: -36px;
 	right: -30px;
 	position: absolute;
-	padding: 25px 45px;
+	padding: 2.5rem 4.5rem;
 	background-color: var(--text);
 	color: var(--white);
 }
