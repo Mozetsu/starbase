@@ -7,7 +7,7 @@
 
 .navbar {
 	font-size: 1.6rem;
-	padding: 3rem;
+	padding: 5rem 3rem;
 	position: relative;
 }
 
@@ -20,6 +20,7 @@
 	flex-grow: 1;
 	justify-content: center;
 	align-items: center;
+	background-color: var(--white);
 }
 
 .navbar__item {
@@ -38,8 +39,17 @@
 	display: none;
 }
 
+@media screen and (max-width: 1040px) {
+	.navbar {
+		width: 100%;
+		max-width: 780px;
+		padding: 3rem 0;
+	}
+}
+
 @media screen and (max-width: 770px) {
 	.navbar {
+		padding: 3rem 0;
 		font-size: 2rem;
 		justify-content: space-between;
 	}
@@ -59,6 +69,15 @@
 
 	.items--expanded {
 		display: flex;
+	}
+
+	.items--expanded::before {
+		content: '';
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-color: var(--white);
+		z-index: -1;
 	}
 
 	.navbar__item {
