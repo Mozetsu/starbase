@@ -38,7 +38,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
 	.navbar {
 		font-size: 2rem;
 		justify-content: space-between;
