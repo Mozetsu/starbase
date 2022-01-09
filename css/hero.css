@@ -1,11 +1,7 @@
+/* text */
 .hero {
 	font-size: 1.8rem;
 	font-weight: 400;
-}
-
-.hero .hero__text {
-	max-width: 660px;
-	width: 100%;
 }
 
 .hero .header {
@@ -19,8 +15,80 @@
 	margin-bottom: 6rem;
 }
 
-@media screen and (max-width: 770px) {
-	.hero .header {
-		font-size: 9.6vw;
+/* frame */
+.hero__frame {
+	position: relative;
+	justify-self: end;
+	align-self: start;
+	box-shadow: -10px 10px 0 0 var(--accent01);
+}
+
+.frame {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	height: 480px;
+	width: 480px;
+}
+
+.frame .image {
+	width: fit-content;
+	height: fit-content;
+}
+
+.hero__frame .quote {
+	background-color: var(--text);
+	font-size: 1.6rem;
+	text-align: end;
+	color: var(--white);
+	position: absolute;
+	padding: 1rem 3rem;
+	right: -3rem;
+	bottom: -3rem;
+}
+
+.quote .quote__author {
+	color: var(--dark04);
+}
+
+@media screen and (max-width: 1040px) {
+	.hero__frame {
+		align-self: center;
+		justify-self: center;
+		grid-row-start: 1;
+	}
+
+	.hero__text {
+		align-self: center;
+		justify-self: center;
+		max-width: 780px;
+	}
+
+	.frame {
+		width: 100%;
+		height: auto;
+		overflow: visible;
+	}
+
+	.frame .image {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.hero__frame .quote {
+		right: -5px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.hero__frame .quote {
+		padding: 0 1rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.hero__frame .quote {
+		font-size: 3.4vw;
 	}
 }
