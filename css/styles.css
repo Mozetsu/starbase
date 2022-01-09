@@ -3,6 +3,7 @@
 @import './button.css';
 @import './navbar.css';
 @import './frame.css';
+@import './hero.css';
 
 :root {
 	/* variables  */
@@ -17,8 +18,9 @@
 	--dark05: #666; /* anchor tags */
 	--dark06: #444; /* profile cards description */
 	--dark07: #222; /* primary */
-	--gradient01: linear-gradient(97.69deg, #ffeaea 0%, #e3e0fd 100%); /* crew section background */
+	--gradient01: linear-gradient(180deg, #fafafa 0%, #ffffff 27.6%); /* crew section background */
 	--gradient02: linear-gradient(160.64deg, #b5bcff 16.7%, #e09dff 109.55%); /* callout */
+	--gradient03: linear-gradient(120deg, #e894fd 0%, #c194fd 100%); /* callout */
 	--shadow01: 0px 4px 20px rgba(0, 0, 0, 0.05); /* Profile cards */
 	--shadow02: 0px 2px 20px rgba(0, 0, 0, 0.15); /* Callout */
 
@@ -58,4 +60,15 @@ a {
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.magic-underline {
+	background-image: var(--gradient03);
+	background-repeat: no-repeat;
+	background-size: 100% 0.3em;
+	background-position: 0 82%;
 }
