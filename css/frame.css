@@ -1,0 +1,58 @@
+.frame {
+	position: relative;
+	width: 100%;
+	max-width: 480px;
+	box-shadow: -12px 12px 0 0 var(--accent01);
+}
+
+.frame__picture img {
+	width: 100%;
+}
+
+.frame__quote {
+	width: 90%;
+	max-width: 350px;
+	bottom: -36px;
+	right: -30px;
+	position: absolute;
+	padding: 25px 45px;
+	background-color: var(--text);
+	color: var(--white);
+}
+
+.frame__quote .text {
+	margin: 0 0 1rem 0;
+	text-align: end;
+}
+
+.frame__quote .author {
+	margin: 0;
+	color: var(--dark04);
+	text-align: end;
+}
+
+@media screen and (max-width: 540px) {
+	.frame__quote {
+		padding: 25px 5vw;
+		right: -10px;
+	}
+
+	.frame__quote .text {
+		margin: 0 0 2.5vw 0;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.frame__quote {
+		padding: 5vw;
+	}
+
+	.frame__quote .text,
+	.frame__quote .author {
+		font-size: 3.7vw;
+	}
+
+	.frame__quote .text {
+		margin: 0 0 4vw 0;
+	}
+}
