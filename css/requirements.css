@@ -1,13 +1,23 @@
 .requirements {
-	margin-top: 25rem;
-	margin-bottom: 25rem;
+	margin-top: 20rem;
+	margin-bottom: 20rem;
 }
 
 .requirements .requirements__header {
 	text-align: center;
-	margin-bottom: 15rem;
 }
 
 .requirements__header .title {
-	margin: 4rem 0 8rem 0;
+	margin: 2rem 0;
+}
+
+.requirements__body {
+	margin: 6rem 0;
+}
+
+@media screen and (max-width: 1040px) {
+	.requirements {
+		margin-top: 15vw;
+		margin-bottom: 15vw;
+	}
 }

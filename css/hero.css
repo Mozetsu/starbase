@@ -2,8 +2,8 @@
 .hero {
 	font-size: 1.8rem;
 	font-weight: 400;
-	margin-top: 10rem;
-	margin-bottom: 10rem;
+	margin-top: 15rem;
+	margin-bottom: 15rem;
 }
 
 .hero .grid--start {
@@ -12,17 +12,17 @@
 
 .hero .header {
 	font-size: 7rem;
-	margin: 0 0 2rem 0;
+	margin: 3rem 0 0 0;
 	position: relative;
 }
 
 .hero .header--2 {
-	margin: 4rem 0 2.5rem 0;
+	margin: 2rem 0 2.5rem 0;
 }
 
 .hero .paragraph {
 	line-height: 1.8;
-	margin-bottom: 6rem;
+	margin: 3rem 0;
 }
 
 /* frame */

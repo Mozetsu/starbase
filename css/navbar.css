@@ -7,7 +7,8 @@
 
 .navbar {
 	font-size: 1.6rem;
-	padding: 5rem 3rem;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
 	position: relative;
 }
 
@@ -43,13 +44,12 @@
 	.navbar {
 		width: 100%;
 		max-width: 780px;
-		padding: 3rem 0;
 	}
 }
 
 @media screen and (max-width: 770px) {
 	.navbar {
-		padding: 3rem 0;
+		/* padding: 3rem 0; */
 		font-size: 2rem;
 		justify-content: space-between;
 	}
