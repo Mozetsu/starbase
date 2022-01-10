@@ -2,13 +2,22 @@
 .hero {
 	font-size: 1.8rem;
 	font-weight: 400;
-	margin-top: 8rem;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+.hero .grid--start {
+	justify-self: start;
 }
 
 .hero .header {
 	font-size: 7rem;
 	margin: 0 0 2rem 0;
 	position: relative;
+}
+
+.hero .header--2 {
+	margin: 4rem 0 2.5rem 0;
 }
 
 .hero .paragraph {
@@ -21,7 +30,14 @@
 	position: relative;
 	justify-self: end;
 	align-self: start;
+}
+
+.shadow-accent01 {
 	box-shadow: -10px 10px 0 0 var(--accent01);
+}
+
+.shadow-accent02 {
+	box-shadow: -10px 10px 0 0 var(--accent02);
 }
 
 .frame {
@@ -57,6 +73,10 @@
 		align-self: center;
 		justify-self: center;
 		grid-row-start: 1;
+	}
+
+	.hero .grid--start {
+		justify-self: center;
 	}
 
 	.hero__frame .quote {

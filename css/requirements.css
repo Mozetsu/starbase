@@ -1,5 +1,11 @@
+.requirements {
+	margin-top: 25rem;
+	margin-bottom: 25rem;
+}
+
 .requirements .requirements__header {
 	text-align: center;
+	margin-bottom: 15rem;
 }
 
 .requirements__header .title {

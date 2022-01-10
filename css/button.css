@@ -19,7 +19,7 @@
 	box-shadow: -7px 7px 0 0 var(--text);
 }
 
-.btn__dark {
+.btn__dark--uppercase {
 	background-color: var(--text);
 	color: var(--white);
 	font-weight: 700;
@@ -28,13 +28,20 @@
 	text-align: center;
 }
 
-.btn__dark--accent01 {
+.btn__dark {
 	background-color: var(--text);
-	box-shadow: -7px 7px 0 0 var(--accent01);
 	color: var(--white);
 	font-weight: 400;
 	padding: 1.5rem 3rem;
 	text-align: center;
+}
+
+.btn--shadow01 {
+	box-shadow: -7px 7px 0 0 var(--accent01);
+}
+
+.btn--shadow02 {
+	box-shadow: -7px 7px 0 0 var(--accent02);
 }
 
 @media screen and (max-width: 1040px) {

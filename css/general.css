@@ -9,7 +9,7 @@
 }
 
 .magic-underline {
-	background-image: var(--gradient03);
+	background-image: var(--gradient02);
 	background-repeat: no-repeat;
 	background-size: 100% 0.4em;
 	background-position: 0 90%;
