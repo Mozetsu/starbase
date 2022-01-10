@@ -1,0 +1,78 @@
+.card {
+	width: 100%;
+	max-width: 270px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.card__logo {
+	border-radius: 100%;
+	border: none;
+	height: 70px;
+	position: relative;
+	width: 70px;
+}
+
+.card__header {
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 3rem 0 1.5rem 0;
+}
+
+.card__body {
+	display: inline-block;
+	margin: 0 0 4rem 0;
+	line-height: 1.5;
+	flex-grow: 1;
+}
+
+.card .btn {
+	padding: 1.2rem 2rem;
+	font-size: 1.4rem;
+	max-width: 120px;
+}
+
+/* modifiers */
+.card--health {
+	background: linear-gradient(155.27deg, #ffdddd 15.77%, #ffa9a9 105.87%);
+}
+
+.card--education {
+	background: linear-gradient(148.44deg, #e8ddff 19.03%, #c4a9ff 104.35%);
+}
+
+.card--citizenship {
+	background: linear-gradient(150.75deg, #e6ffdd 17.95%, #9ef197 108.17%);
+}
+
+.card--health::after,
+.card--education::after,
+.card--citizenship::after {
+	bottom: -7px;
+	position: absolute;
+	right: -15px;
+}
+
+.card--health::after {
+	content: url(../svg/heart.svg);
+}
+
+.card--education::after {
+	content: url(../svg/book.svg);
+}
+
+.card--citizenship::after {
+	content: url(../svg/flag.svg);
+}
+
+@media screen and (max-width: 740px) {
+	.card {
+		max-width: 350px;
+	}
+
+	.card .btn {
+		margin-top: 1rem;
+	}
+}

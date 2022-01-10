@@ -59,6 +59,10 @@
 		grid-row-start: 1;
 	}
 
+	.hero__frame .quote {
+		right: -5px;
+	}
+
 	.hero__text {
 		align-self: center;
 		justify-self: center;
@@ -76,15 +80,21 @@
 	}
 }
 
-@media screen and (max-width: 1040px) {
-	.hero__frame .quote {
-		right: -5px;
+@media screen and (max-width: 770px) {
+	.hero {
+		margin-top: 2.5rem;
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.hero__frame .quote {
 		padding: 0 1rem;
+	}
+
+	.hero .header {
+		font-size: 4.5rem;
+		margin: 0 0 2rem 0;
+		position: relative;
 	}
 }
 
