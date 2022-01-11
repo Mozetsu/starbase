@@ -2,13 +2,15 @@
 @import './general.css';
 @import './arrow.css';
 @import './button.css';
-@import './navbar.css';
 @import './grid.css';
-@import './hero.css';
 @import './card.css';
-@import './requirements.css';
+@import './callout.css';
+/* sections */
 @import './profile-card.css';
-@import './crew.css';
+@import './sections/navbar.css';
+@import './sections/hero.css';
+@import './sections/requirements.css';
+@import './sections/crew.css';
 
 :root {
 	/* variables  */

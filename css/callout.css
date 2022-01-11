@@ -1,0 +1,25 @@
+.callout {
+	position: relative;
+	top: 40px;
+	padding: 7rem 15rem;
+	background: var(--gradient02);
+	box-shadow: var(--shadow02);
+}
+
+.callout .btn {
+	margin-top: 6rem;
+	padding: 2rem;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 950px) {
+	.callout {
+		padding: 8vw 15vw;
+	}
+
+	.callout .btn {
+		margin-top: 6vw;
+	}
+}
