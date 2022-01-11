@@ -2,8 +2,8 @@
 
 ## Images
 
-- Astronaut - Photo by Mikhail Nilov from Pexels
-- Profile photo 1 - Photo by Buro Millennial from Pexels
-- Profile photo 2 - Photo by PICHA Stock from Pexels
-- Profile photo 3 - Photo by Edmond Dantès from Pexels
-- Profile photo 4 - Photo by Andrea Piacquadio from Pexels
+- Hero section > astronaut - Photo by Mikhail Nilov from Pexels
+- Profile photo 1 (Matt Sanders) - Photo by Buro Millennial from Pexels
+- Profile photo 2 (Julie Parker) - Photo by PICHA Stock from Pexels
+- Profile photo 3 (Katherine Page) - Photo by Edmond Dantès from Pexels
+- Profile photo 4 (Oliver Simpson) - Photo by Andrea Piacquadio from Pexels
