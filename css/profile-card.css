@@ -1,0 +1,30 @@
+.profile-card {
+	box-shadow: var(--shadow01);
+	max-width: 365px;
+}
+
+.profile-card__header img {
+	width: 100%;
+}
+
+.profile-card .profile-card__body {
+	padding: 2rem 2rem 3rem;
+	color: var(--text);
+}
+
+.profile-card .profile-name {
+	font-size: 3.6rem;
+	font-weight: 700;
+	margin: 0 0 1.5rem 0;
+}
+
+.profile-card .profile-position {
+	margin: 0;
+	color: var(--dark03);
+}
+
+@media screen and (max-width: 370px) {
+	.profile-card {
+		width: 90%;
+	}
+}

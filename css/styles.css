@@ -7,6 +7,8 @@
 @import './hero.css';
 @import './card.css';
 @import './requirements.css';
+@import './profile-card.css';
+@import './crew.css';
 
 :root {
 	/* variables  */

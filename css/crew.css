@@ -1,0 +1,17 @@
+.crew {
+	margin: 10rem 0;
+}
+
+.crew .crew__header {
+	text-align: center;
+}
+
+.crew .crew__body {
+	margin: 8rem 0;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	row-gap: 12rem;
+	grid-template-columns: repeat(auto-fit, minmax(36.5rem, 1fr));
+}
