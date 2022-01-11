@@ -18,7 +18,9 @@
 	.callout {
 		padding: 8vw 15vw;
 	}
-
+	.callout .header {
+		font-size: 3.6vw;
+	}
 	.callout .btn {
 		margin-top: 6vw;
 	}

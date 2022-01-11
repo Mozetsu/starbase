@@ -5,12 +5,14 @@
 @import './grid.css';
 @import './card.css';
 @import './callout.css';
+@import './footer-list.css';
 /* sections */
 @import './profile-card.css';
 @import './sections/navbar.css';
 @import './sections/hero.css';
 @import './sections/requirements.css';
 @import './sections/crew.css';
+@import './sections/footer.css';
 
 :root {
 	/* variables  */
@@ -50,7 +52,7 @@ body {
 		'Helvetica Neue', sans-serif;
 	font-size: 1.8rem;
 	font-weight: 400;
-	padding: 0 2rem;
+	overflow-x: hidden;
 }
 
 ul {

@@ -1,5 +1,5 @@
 .navbar,
-.navbar__logo,
+.logo,
 .navbar__items,
 .navbar__btn {
 	display: flex;
@@ -12,7 +12,7 @@
 	position: relative;
 }
 
-.navbar__logo {
+.logo {
 	align-items: center;
 }
 
@@ -42,14 +42,12 @@
 
 @media screen and (max-width: 1040px) {
 	.navbar {
-		width: 100%;
 		max-width: 780px;
 	}
 }
 
 @media screen and (max-width: 770px) {
 	.navbar {
-		/* padding: 3rem 0; */
 		font-size: 2rem;
 		justify-content: space-between;
 	}
