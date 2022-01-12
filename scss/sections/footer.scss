@@ -1,0 +1,24 @@
+@use '../abstracts/index' as *;
+
+footer {
+	padding: 15rem 10rem 10rem;
+	background-color: $dark07;
+
+	.logo {
+		align-self: flex-start;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	footer {
+		.logo {
+			grid-row: 4;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	footer {
+		padding: 10rem 6vw;
+	}
+}

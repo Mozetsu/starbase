@@ -1,0 +1,13 @@
+@use 'colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.text-bold {
+	font-weight: 700;
+}
+
+.magic-underline {
+	background-image: $gradient02;
+	background-repeat: no-repeat;
+	background-size: 100% 0.4em;
+	background-position: 0 90%;
+}

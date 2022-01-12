@@ -1,3 +1,5 @@
+@use '../abstracts/index' as *;
+
 .card {
 	width: 100%;
 	max-width: 280px;
@@ -34,17 +36,28 @@
 	max-width: 120px;
 }
 
-/* modifiers */
 .card--health {
 	background: linear-gradient(155.27deg, #ffdddd 15.77%, #ffa9a9 105.87%);
+
+	&::after {
+		content: url(../svg/heart.svg);
+	}
 }
 
 .card--education {
 	background: linear-gradient(148.44deg, #e8ddff 19.03%, #c4a9ff 104.35%);
+
+	&::after {
+		content: url(../svg/book.svg);
+	}
 }
 
 .card--citizenship {
 	background: linear-gradient(150.75deg, #e6ffdd 17.95%, #9ef197 108.17%);
+
+	&::after {
+		content: url(../svg/flag.svg);
+	}
 }
 
 .card--health::after,
@@ -55,24 +68,12 @@
 	right: -15px;
 }
 
-.card--health::after {
-	content: url(../svg/heart.svg);
-}
-
-.card--education::after {
-	content: url(../svg/book.svg);
-}
-
-.card--citizenship::after {
-	content: url(../svg/flag.svg);
-}
-
 @media screen and (max-width: 740px) {
 	.card {
 		max-width: 350px;
-	}
 
-	.card .btn {
-		margin-top: 1rem;
+		.btn {
+			margin-top: 1rem;
+		}
 	}
 }

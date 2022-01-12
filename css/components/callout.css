@@ -34,31 +34,34 @@
   overflow: hidden;
 }
 
-.requirements {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
-}
-.requirements .requirements__header {
-  text-align: center;
-}
-.requirements .requirements__header .title {
-  margin: 2rem 0;
-}
-.requirements .requirements__body {
-  margin: 6rem 0;
+.callout {
+  position: relative;
+  top: 40px;
+  padding: 7rem 15rem;
+  background: linear-gradient(160.64deg, #b5bcff 16.7%, #e09dff 109.55%);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 1040px) {
-  .requirements {
-    margin-top: 15vw;
-    margin-bottom: 15vw;
-  }
+.callout .btn {
+  margin-top: 6rem;
+  padding: 2rem;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-@media screen and (max-width: 480px) {
-  .requirements {
-    margin-top: 20vw;
-    margin-bottom: 30vw;
+
+@media screen and (max-width: 950px) {
+  .callout {
+    padding: 8vw 15vw;
+  }
+
+  .callout .header {
+    font-size: 3.6vw;
+  }
+
+  .callout .btn {
+    margin-top: 6vw;
   }
 }
 
-/*# sourceMappingURL=requirements.css.map */
+/*# sourceMappingURL=callout.css.map */

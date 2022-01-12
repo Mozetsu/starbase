@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* navbar: button border */
+/* footer: list items */
+/* crew: profile cards description */
+/* hero: quote name */
+/* anchor tags */
+/* profile cards description */
+/* primary */
+/* classic button gradient */
+/* magic underline */
+/* crew section background */
+/* callout */
+/* Profile cards */
+/* Callout */
+.text-bold {
+  font-weight: 700;
+}
+
+.magic-underline {
+  background-image: linear-gradient(160.64deg, #b5bcff 16.7%, #e09dff 109.55%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.4em;
+  background-position: 0 90%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 0 2rem;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.btn {
+  border: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0.6rem 2.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn__classic {
+  background-color: #fff;
+  border: 3px solid #e4e4e4;
+}
+.btn__classic:hover {
+  background: linear-gradient(97.69deg, #ffeaea 0%, #e3e0fd 100%);
+  border: 3px solid #ffe8e8;
+  box-shadow: -7px 7px 0 0 #222;
+}
+
+.btn__dark {
+  background-color: #222;
+  color: #fff;
+  font-weight: 400;
+  padding: 1.5rem 3rem;
+  text-align: center;
+}
+
+.btn__dark--uppercase {
+  background-color: #222;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn--shadow01 {
+  box-shadow: -7px 7px 0 0 #c4a9ff;
+}
+
+.btn--shadow02 {
+  box-shadow: -7px 7px 0 0 #efb7b7;
+}
+
+@media screen and (max-width: 1040px) {
+  .navbar .btn__burguer {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=button.css.map */

@@ -34,31 +34,18 @@
   overflow: hidden;
 }
 
-.requirements {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
-}
-.requirements .requirements__header {
-  text-align: center;
-}
-.requirements .requirements__header .title {
-  margin: 2rem 0;
-}
-.requirements .requirements__body {
-  margin: 6rem 0;
+.arrow {
+  margin-left: 1.7rem;
+  width: 15px;
+  height: auto;
 }
 
-@media screen and (max-width: 1040px) {
-  .requirements {
-    margin-top: 15vw;
-    margin-bottom: 15vw;
-  }
-}
-@media screen and (max-width: 480px) {
-  .requirements {
-    margin-top: 20vw;
-    margin-bottom: 30vw;
-  }
+.arrow__light {
+  fill: #fff;
 }
 
-/*# sourceMappingURL=requirements.css.map */
+.arrow__dark {
+  fill: #222;
+}
+
+/*# sourceMappingURL=arrow.css.map */

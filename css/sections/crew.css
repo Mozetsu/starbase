@@ -1,17 +1,24 @@
 .crew {
-	margin-top: 8rem;
+  margin-top: 8rem;
 }
-
 .crew .crew__header {
-	text-align: center;
+  text-align: center;
+}
+.crew .crew__body {
+  margin: 8rem 0 10rem 0;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  row-gap: 12rem;
+  grid-template-columns: repeat(auto-fit, minmax(36.5rem, 1fr));
 }
 
-.crew .crew__body {
-	margin: 8rem 0 10rem 0;
-	display: grid;
-	justify-content: center;
-	justify-items: center;
-	align-items: center;
-	row-gap: 12rem;
-	grid-template-columns: repeat(auto-fit, minmax(36.5rem, 1fr));
+@media screen and (max-width: 480px) {
+  .crew .crew__body {
+    row-gap: 7rem;
+    margin-bottom: 5rem;
+  }
 }
+
+/*# sourceMappingURL=crew.css.map */

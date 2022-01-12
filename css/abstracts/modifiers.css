@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 0 2rem;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=modifiers.css.map */

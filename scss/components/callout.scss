@@ -1,0 +1,37 @@
+@use '../abstracts/index' as *;
+
+.callout {
+	position: relative;
+	top: 40px;
+	padding: 7rem 15rem;
+	background: $gradient02;
+	box-shadow: $shadow02;
+}
+
+.callout {
+	.btn {
+		margin-top: 6rem;
+		padding: 2rem;
+		display: block;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.callout {
+		padding: 8vw 15vw;
+	}
+
+	.callout {
+		.header {
+			font-size: 3.6vw;
+		}
+	}
+
+	.callout {
+		.btn {
+			margin-top: 6vw;
+		}
+	}
+}

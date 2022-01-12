@@ -1,3 +1,5 @@
+@use '../abstracts/index' as *;
+
 .arrow {
 	margin-left: 1.7rem;
 	width: 15px;
@@ -5,9 +7,9 @@
 }
 
 .arrow__light {
-	fill: var(--white);
+	fill: $white;
 }
 
 .arrow__dark {
-	fill: var(--text);
+	fill: $dark07;
 }

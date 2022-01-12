@@ -23,34 +23,4 @@
   background-position: 0 90%;
 }
 
-.container {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1250px;
-  padding: 0 2rem;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-footer {
-  padding: 15rem 10rem 10rem;
-  background-color: #222;
-}
-footer .logo {
-  align-self: flex-start;
-}
-
-@media screen and (max-width: 770px) {
-  footer .logo {
-    grid-row: 4;
-  }
-}
-@media screen and (max-width: 500px) {
-  footer {
-    padding: 10rem 6vw;
-  }
-}
-
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=typography.css.map */

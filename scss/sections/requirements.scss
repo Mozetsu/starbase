@@ -1,0 +1,32 @@
+@use '../abstracts/index' as *;
+
+.requirements {
+	margin-top: 20rem;
+	margin-bottom: 20rem;
+
+	.requirements__header {
+		text-align: center;
+
+		.title {
+			margin: 2rem 0;
+		}
+	}
+
+	.requirements__body {
+		margin: 6rem 0;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.requirements {
+		margin-top: 15vw;
+		margin-bottom: 15vw;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.requirements {
+		margin-top: 20vw;
+		margin-bottom: 30vw;
+	}
+}

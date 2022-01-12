@@ -34,31 +34,17 @@
   overflow: hidden;
 }
 
-.requirements {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
+.footer__list .header {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
-.requirements .requirements__header {
-  text-align: center;
+.footer__list .item {
+  margin-bottom: 2rem;
 }
-.requirements .requirements__header .title {
-  margin: 2rem 0;
-}
-.requirements .requirements__body {
-  margin: 6rem 0;
-}
-
-@media screen and (max-width: 1040px) {
-  .requirements {
-    margin-top: 15vw;
-    margin-bottom: 15vw;
-  }
-}
-@media screen and (max-width: 480px) {
-  .requirements {
-    margin-top: 20vw;
-    margin-bottom: 30vw;
-  }
+.footer__list .item a {
+  color: #aaa;
 }
 
-/*# sourceMappingURL=requirements.css.map */
+/*# sourceMappingURL=list.css.map */

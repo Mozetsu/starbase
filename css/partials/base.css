@@ -34,31 +34,31 @@
   overflow: hidden;
 }
 
-.requirements {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
-}
-.requirements .requirements__header {
-  text-align: center;
-}
-.requirements .requirements__header .title {
-  margin: 2rem 0;
-}
-.requirements .requirements__body {
-  margin: 6rem 0;
+html,
+body {
+  height: 100%;
 }
 
-@media screen and (max-width: 1040px) {
-  .requirements {
-    margin-top: 15vw;
-    margin-bottom: 15vw;
-  }
-}
-@media screen and (max-width: 480px) {
-  .requirements {
-    margin-top: 20vw;
-    margin-bottom: 30vw;
-  }
+html {
+  font-size: 62.5%;
 }
 
-/*# sourceMappingURL=requirements.css.map */
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=base.css.map */
