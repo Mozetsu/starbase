@@ -35,7 +35,7 @@
 }
 
 .navbar,
-.logo,
+.navbar__logo,
 .navbar__items,
 .navbar__btn {
   display: flex;
@@ -47,7 +47,7 @@
   margin-bottom: 6rem;
   position: relative;
 }
-.navbar .logo {
+.navbar .navbar__logo {
   align-items: center;
 }
 .navbar .navbar__items {
