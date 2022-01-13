@@ -10,4 +10,5 @@ Design and build a performant, responsive, accessible landing page for an imagin
 
 - HTML5
 - CSS3
+- Sass
 - JavaScript
