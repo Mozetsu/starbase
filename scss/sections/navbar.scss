@@ -1,7 +1,7 @@
 @use '../abstracts/index' as *;
 
 .navbar,
-.logo,
+.navbar__logo,
 .navbar__items,
 .navbar__btn {
 	display: flex;
@@ -13,7 +13,7 @@
 	margin-bottom: 6rem;
 	position: relative;
 
-	.logo {
+	.navbar__logo {
 		align-items: center;
 	}
 

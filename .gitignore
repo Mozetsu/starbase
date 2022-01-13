@@ -1,1 +1,3 @@
-*.map
+components/
+scss/
+css/*.css.map
