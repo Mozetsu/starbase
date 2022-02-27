@@ -1,8 +1,8 @@
-# Starbase (single-page website)
+# Landing page built with responsiveness in mind. 
 
 ## Overview
 
-Website for an imaginary space-exploration company which is recruiting members to a new misson.
+Website built with HTML and CSS for an imaginary space-exploration company using concepts of responsiveness and CSS BEM naming convention.
 
 <p align="center">
   <img style="border-radius: 3px" src="./images/readme/hero.png" width="100%">
