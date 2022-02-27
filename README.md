@@ -20,7 +20,7 @@ Design and build a performant, responsive, accessible landing-page for an imagin
 - Sass
 - JavaScript
 
- Features
+ ## Features
 
 - Responsive layout (Flexbox, Grid).
 - Use of performant image formats (webp).
